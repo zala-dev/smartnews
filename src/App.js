@@ -12,8 +12,6 @@ const App = () => {
 
   useEffect(() => {
     alanBtn({
-      top: '80px',
-      left: '80px',
       key: process.env.REACT_APP_ALAN_KEY,
       onCommand: ({ command, articles }) => {
         if (command === 'newHeadlines') {
