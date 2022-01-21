@@ -66,7 +66,7 @@ const NewsCards = ({ articles }) => {
   }
   return (
     <>
-      <Typography className={classes.tips} variant='p'>
+      <Typography className={classes.tips} component='p'>
         Say<i className={classes.primary}> 'Go Back' </i>to go the Home Page
       </Typography>
       <Grow in>

@@ -31,7 +31,7 @@ const NewsCard = ({
           </Typography>
         </div>
 
-        <Typography className={classes.title} gutterBottom varian='h5'>
+        <Typography className={classes.title} gutterBottom component='h5'>
           {title}
         </Typography>
         <CardContent>
